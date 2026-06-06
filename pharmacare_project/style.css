@@ -1,0 +1,119 @@
+ 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb9c;
+}
+
+     .home {
+    background-image: url("images/pharma.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+     
+}  
+.header {
+    background-color: #0f96f0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+ .logo {
+    width: 120px;
+    height: 120px ;
+     
+}
+
+.alert {
+    background-color: #b90000;/*مشان التحذير*/
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2974a7;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /*fraction*/
+    padding: 30px;
+    gap: 30px;/*الفجوة*/
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.medicine-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgb(236, 229, 229);
+}
+
+.medicine-table th,
+.medicine-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.in-stock {
+    background-color: rgb(36, 174, 36);
+}
+
+.out-stock {
+    background-color: rgb(189, 57, 57);
+}
+
+.expired {
+   
+    color: red;
+    text-decoration: line-through;
+    border: 2px solid darkred;
+} 
+.expired-list li {
+    list-style: none;
+    background: rgb(185, 140, 140);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #e8e2e2;
+}
+ 
+  
+@media (max-width: 600px) {
+/*للجوال*/
+}
+
+/* للتابلت */
+@media (max-width: 900px) {
+  
+}
+
+/* للشاشات الكبيرة */
+@media (min-width: 901px) {
+    
+}
